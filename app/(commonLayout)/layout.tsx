@@ -10,7 +10,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
 
       {/* Desktop Header - Hidden on small screens */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 hidden md:block">
-        <div className="container flex h-16 items-center justify-between">
+        <div className="container mx-auto flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2 font-bold text-xl">
             <span className="bg-gradient-to-r from-emerald-500 to-teal-400 bg-clip-text text-transparent">Wander</span>
             <span className="text-slate-700 dark:text-slate-200">Wise</span>
