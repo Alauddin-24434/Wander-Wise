@@ -41,7 +41,7 @@ export function ParallaxHero() {
         }}
       >
         <Image
-          src="/placeholder.svg?height=1200&width=1920"
+          src="/DestinationHero.webp"
           alt="Beautiful travel destination"
           fill
           className="object-cover"
@@ -70,7 +70,7 @@ export function ParallaxHero() {
       </div>
 
       {/* Content */}
-      <div className="container relative z-10 py-24 md:py-32 lg:py-40">
+      <div className="container mx-auto relative z-10 py-24 md:py-32 lg:py-40">
         <div
           className="max-w-3xl mx-auto text-center"
           style={{
